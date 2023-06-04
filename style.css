@@ -715,6 +715,22 @@ ul
     height: 50px;
     padding: 0 50px;
 }
+@media (max-width:1199px)
+{
+    .aside
+    {
+        left: -270px;
+    }
+    .main-content
+    {
+        padding: 0;
+    }
+    .about .about-content .personal-info .info-item p span
+    {
+        display: block;
+        margin-left: 0S;
+    }
+}
 
 
 
