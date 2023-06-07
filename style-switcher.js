@@ -1,6 +1,6 @@
-const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
-styleSwitcherToggle.addEventListener("click", () => {
-    document.querySelector(".style-switcher").classList.toggle("open");
+const styleSwitcherToggler = document.querySelector(".style-switcher-toggler");
+styleSwitcherToggler.addEventListener("click", () => {
+    document.querySelector(".style-switcher").classList.toggler("open");
 })
 window.addEventListener("scroll", () => {
    if(document.querySelector(".style-switcher").classList.contains("open"))
